@@ -3,15 +3,16 @@
   "locale": "id-ID",
   "data": [
     {
-      "intent": "agent.whereami",
+      "intent": "agent.sapaan",
       "utterances": [
-        "where am i",
-        "where am i talking"
+        "hai",
+        "helo",
+        "hallo",
+        "halo",
+        "hi",
       ],
       "answers": [
-        { "answer": "you're talking from console, app is {{ app }} channel is {{ channel }}", "opts": "channel==='console'" },
-        { "answer": "you're talking from directline, app is {{ app }} channel is {{ channel }}", "opts": "channel==='directline'" },
-        { "answer": "you're talking from microsoft emulator, app is {{ app }} channel is {{ channel }}", "opts": "channel==='msbf-emulator'" }
+         "answer": "Hallo! Selamat datang di Chatbot Pariwisata Banjarmasin. Apakah kamu ingin mendapatkan saran tetang liburan di Banjarmasin ataukah kamu ingin bertanya ke aku?" 
       ]
     },
     {
