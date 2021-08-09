@@ -5,13 +5,14 @@
     {
       "intent": "agent.sapaan",
       "utterances": [
-        "dimana aku",
-        "dimana aku bicara"
+        "hai",
+        "helo",
+        "hallo",
+        "halo",
+        "hi",
       ],
       "answers": [
-        { "answer": "Hallo 😄! Selamat datang di Chatbot Pariwisata Banjarmasin. Apakah kamu ingin mendapatkan saran tetang liburan di Banjarmasin ataukah kamu ingin bertanya ke aku?" },
-        { "answer": "kamu bicara, app is {{ app }} channel is {{ channel }}", "opts": "channel==='console'" },
-        { "answer": "kamu bicara, app is {{ app }} channel is {{ channel }}", "opts": "channel==='console'" }
+        { "answer": "Hallo 😄! Selamat datang di Chatbot Pariwisata Banjarmasin. Apakah kamu ingin mendapatkan saran tetang liburan di Banjarmasin ataukah kamu ingin bertanya ke aku?" }
       ]
     },
     {
